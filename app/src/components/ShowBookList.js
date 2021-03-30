@@ -21,7 +21,7 @@ class ShowBookDetails extends Component {
         });
       })
       .catch((err) => {
-        consle.log("Error from Show Book List");
+        console.log("Error from Show Book List");
       });
   }
 
@@ -66,5 +66,3 @@ class ShowBookDetails extends Component {
 }
 
 export default ShowBookList;
-
-export default ShowBookDetails;
