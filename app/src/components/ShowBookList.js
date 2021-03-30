@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import BookCard from "./BookCard";
 import { render } from "react-dom";
 
-class ShowBookDetails extends Component {
+class ShowBookList extends Component {
   constructor(props) {
     super(props);
     this.state = {
